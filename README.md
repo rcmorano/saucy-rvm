@@ -1,3 +1,7 @@
+# What you get
+
+A ready to use ubuntu-rvm-ruby container (in different flavours) to use as base image for your development containers.
+
 # How to use
 
 You can just pull the image from the official 'docker' index since it's a trusted build linked with github 'Dockerfile' in this repo:
