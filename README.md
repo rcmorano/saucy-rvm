@@ -8,19 +8,20 @@ You can just pull the image from the official 'docker' index since it's a truste
 ```
 docker pull rcmorano/saucy-rvm
 docker pull rcmorano/precise-rvm
+docker pull rcmorano/trusty-rvm
 ```
 
 Or you can build the image yourself:
 ```
 git clone https://github.com/rcmorano/ubuntu-rvm.git
-git checkout saucy
-docker build -t rcmorano/saucy-rvm ubuntu-rvm/
+git checkout trusty
+docker build -t rcmorano/trusty-rvm ubuntu-rvm/
 ```
 
 You'll get a ruby-head-able interactive container for messing up with some gemsets:
 
 ```
-docker run -t -i rcmorano/saucy-rvm
+docker run -t -i rcmorano/trusty-rvm
 ```
 
 # Supported versions
