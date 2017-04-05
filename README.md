@@ -1,3 +1,5 @@
+![build passing](https://img.shields.io/docker/automated/rcmorano/ubuntu-rvm.svg)
+
 # What you get
 
 A ready to use ubuntu-rvm-ruby container (in different flavours) to use as base image for your development containers.
